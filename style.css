@@ -1,0 +1,198 @@
+body {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: neon;
+    color: #fff;
+    background-color: #010a01;
+    text-align: center;
+}
+
+.grid {
+    background-color: #fff;
+    border: 3px double #010a01;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    height: 500px;
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    margin-bottom: 20px;
+}
+
+.control-panel {
+
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 5px double #36d0ff;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 16px;
+}
+
+
+.color label{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.grid-lines{
+    
+    font-family: 'Kanit', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+#color-picker{
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    outline: none;
+}
+
+.rainbow {
+    border: 2px solid #ff5efa;
+}
+
+.eraser {
+    border: 2px solid #ffdb4e;
+}
+
+.clear {
+    border: 2px solid #41ff7d;
+}
+
+
+h1{
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 25px 15px 50px 15px;
+   
+    font-size: 4.4rem;
+    text-align: center;
+    
+    font-weight: 400;
+}
+
+
+button{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    transition-duration: 0.4s;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+button:hover {opacity: 1}
+
+.box-count {
+    font-family: 'Kanit', sans-serif;
+}
+
+footer{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+footer [src="./github.svg"]{
+    width: 2rem;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+footer a:hover [src="./github.svg"] {
+    filter: invert(1);
+}
+
+footer a:focus {
+    color: #3E75C3;
+}
+
+footer a {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Monoton&family=Nanum+Myeongjo:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Canvas</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icon.png" >
+</head>
+<body>
+    <h1> ARTISTIC CANVAS </h1>
+
+    <div class="content">
+        <div class="control-panel">
+            <h2>Controls</h2>
+            <div class="color">
+                <label for="color-picker">Color:</label>
+                <input type="color" value="#ff0000" id="color-picker" />
+            </div>
+
+            <button class="rainbow">Rainbow Mode</button>
+            <button class="eraser">Eraser</button>
+            <button class="clear">Clear</button>
+
+            <div class="grid-lines">
+                <label for="gridlines-toggle">Toggle Gridlines</label>
+                <input type="checkbox" id="gridlines-toggle" checked>
+            </div>
+
+            <div class="slider">
+                <label for="box-slider">
+                    <span class="box-count">16</span>
+                    
+                    <span class="box-count">16</span>
+                </label>
+
+                <input type="range" min="1" max="100" value="16" id="box-slider">
+            </div>
+
+        </div>
+
+        <div class="grid">
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://github.com/aspandhillon"><img src="./github.svg" alt="gitHub logo"> @aspandhillon </a> | 
+        <a href="https://github.com/aspandhillon/artisticcanvas">Source Code</a>
+    </footer>
+
+</body>
+</html> 
